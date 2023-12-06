@@ -1,0 +1,15 @@
+(executable
+ (public_name day05-pt1)
+ (name part1)
+ (modules part1)
+ (preprocess
+  (pps ppx_sexp_conv))
+ (libraries core))
+
+(executable
+ (public_name day05-pt2)
+ (name part2)
+ (modules part2)
+ (preprocess
+  (pps ppx_sexp_conv))
+ (libraries core))
